@@ -26,10 +26,13 @@ Apensar de ambas as fonte ocuparem praticamente o mesmo volume, a fonte genéric
 ## 3. Segurança
 A fonte original possui maior isolação. Apresenta fitas isolantes separando os componentes operando em alta tensão do restante do circuito.
 No quesito de segurança a fonte original também conta com:
-* *Sparl Gap*.
-* *Latch* para desligar a fonte em caso de erros.
-* Monitoramento de tensão de entrada e corrente no indutor.
-* Sensor de Temperatura.
+* Encaixo com aterramento da linha com a fonte. (Ground)
+* *Sparl Gap*.(Spark Gap)
+* *Latch* para desligar a fonte em caso de erros. (Latch releaser circuit)
+* Monitoramento de tensão de entrada e corrente no indutor.(Line voltage resistor)(Current sense resistor)
+* Sensor de Temperatura.(Protection)
+
+![](https://raw.githubusercontent.com/lsmanoel/PowerEletronics/master/layout/images/ipad_board_labeled_protection.png)
 
 ## 4. Assistência Técnica
 ## 5. Confiabilidade
