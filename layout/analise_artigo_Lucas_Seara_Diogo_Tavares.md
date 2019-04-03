@@ -35,8 +35,20 @@ No quesito de segurança a fonte original também conta com:
 ![](https://raw.githubusercontent.com/lsmanoel/PowerEletronics/master/layout/images/ipad_board_labeled_protection.png)
 
 ## 4. Assistência Técnica
+Devido ao fato de ser uma fonte falsificada, não há para quem recorrer em caso de problema, como seria o caso de uma fonte original. 
+Assistências técnicas genéricas até podem resolver determinados problemas, mas não são facilmente encontradas hoje em dia. Sem mencionar o quesito garantia.
+
 ## 5. Confiabilidade
+É muito provável não haver um rigoroso procedimento de testes, e a fonte falsificada pode não apresentar um bom desempenho, em termos de eficiência, durabilidade e segurança.
+
 ## 6. Robustez
+Pode-se dizer que o projeto é severamente simplificado, utilizando muitos componentes a menos, e os componentes utilizados são ainda de qualidade inferior para baixar o preço de produção. A qualidade do leiaute da placa também é duvidosa. Isso tudo levanta uma questão: esse dispositivo suportaria adequadamente um bom funcionamento?
+
 ## 7. Eficiência
+Dentre os dois dispositivos, o falsificado apresenta uma potência bem inferior (5,6 W) ao que ele alega (10 W). Além da qualidade da tensão de saída ser extremamente ruidosa e cheia de picos, o que representa uma má qualidade energética.
+
 ## 8. Atendimento às normas
+Posivelmente, o grande motivo pelo qual a fonte falsificada é inferior seja pelo fato de não haver preocupação com as normas de qualidade e segurança. Por este motivo, podem haver tanto riscos Á segurança, quanto uma má qualidade energética fornecida para o dispositivo a ser carregado, quanto também a poluição da rede elétrica com ruídos.
+
 ## Conclusão
+Portanto, devido a todas as características que apontam evidentemente que a fonte falsificada tem qualidade inferior em todos os aspectos, pode-se imaginar o porque estas saem tão mais baratas. No entanto, vários riscos estão envolvidos ao se adquirir uma, mas tendo-se em vista que os consumidores em geral jamais pensariam nestes dados técnicos, estes dispositivos genéricos são comercializados em larga escala, uma vez que o consumidor apenas olha o preço. O barato pode seir caro!
