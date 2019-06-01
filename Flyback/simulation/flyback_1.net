@@ -1,0 +1,50 @@
+* Z:\home\lucas\win\Users\Lucas\Desktop\ifsc\powerEletronics\Flyback\simulation\flyback_1.asc
+XU1 comp_1 fb_2 cs_3 rtct_4 0 out_6 vcc_7 vref_8 UCC28C45_STEADY
+C1 input N005 250µ V=250
+C9 input N004 3300p V=600
+R2 vcc_7 input 56k
+R12 N004 input 4.7k pwr=2
+D4 N008 N004 D
+R3 vcc_7 fb_2 20k
+R4 fb_2 N005 4.7k
+R5 comp_1 fb_2 150k
+C14 comp_1 fb_2 100p
+C6 rtct_4 0 0.0022µ
+C4 N006 N010 47µ V=25
+C2b vcc_7 N010 0.22µ
+C2 vcc_7 N010 100µ V=25
+D2 N006 vcc_7 D
+D3 N007 N006 D
+R9 N010 N006 68 pwr=3
+L§Nc N007 0 10µ
+R6 vref_8 rtct_4 10k
+C5 vref_8 0 0.01µF
+R7 N011 out_6 22
+M§Q1 N008 N011 N012 N012 NMOS
+R8 N012 cs_3 1
+C7 cs_3 0 470p
+L§T1_A N008 input 200µ
+R10 N012 0 0.55 pwr=1
+R13 N011 0 20k
+C8 N008 N013 680p
+R11 N008 0 2.7k pwr=2
+D5 N013 0 D
+D1 0 out_6 D
+L§T1_B N001 N009 200µ
+D6 N001 N002 D
+C10 N002 N009 4700µ V=10
+C11 N003 N009 4700µ
+L1 N003 N002 200µ
+V1 input 0 SINE(0 130 60)
+R§LOAD N003 N009 100
+R1 N009 0 100m
+.model D D
+.lib C:\users\lucas\Meus Documentos\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\lucas\Meus Documentos\LTspiceXVII\lib\cmp\standard.mos
+K1 T1_A T1_B 1
+.tran 0.01 1
+.lib Z:\home\lucas\win\Users\Lucas\Desktop\ifsc\powerEletronics\Flyback\simulation\ucc28c45.lib
+.backanno
+.end

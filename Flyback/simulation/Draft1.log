@@ -1,0 +1,21 @@
+Circuit: * Z:\home\lucas\win\Users\Lucas\Desktop\ifsc\powerEletronics\Flyback\simulation\Draft1.asc
+
+.OP point found by inspection.
+
+Date: Sat Jun 01 00:18:24 2019
+Total elapsed time: 0.072 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4128
+traniter = 4128
+tranpoints = 2065
+accept = 1532
+rejected = 533
+matrix size = 2
+fillins = 0
+solver = Normal
+Matrix Compiler1:       2 opcodes  0.4/[0.4]/0.4
+Matrix Compiler2: 96 bytes object code size  0.4/0.4/[0.4]
+
