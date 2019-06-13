@@ -1,4 +1,4 @@
-update=qua 12 jun 2019 15:26:30 -03
+update=qua 12 jun 2019 22:20:03 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=ajus_shunt
+LibName31=/home/lucas/ssd2/kicad/digikey-kicad-library/digikey-symbols/dk_Transistors-JFETs
