@@ -1,0 +1,44 @@
+malha aberta:
+ D_max = 0,4
+ freq= 67kHz
+
+** Chaves **
+mosfet:
+ 	tensão: 560 Vp
+	corrente média: 3 A
+
+diodo:
+	tensão: -23 Vp ..  	e +16 Vp   ?? simulação ?? 
+	corrente media: 1,4 A 
+
+
+ ** Snubber **
+diodo snubber:
+	tensão: 250 Vp
+	corrente media: 4,5 A
+
+capacitor snubber:
+	tensão: 250 Vp 
+	corrente: 1 A
+
+res snubber:
+	tensão: 250 Vp
+	corrente media: 4,4 A
+
+*** outros 
+cap ret:
+	tensão: 300 Vp
+
+res R_CS:
+	tensão média: 600 mV
+	corrente média:	3 A
+	tensão pico: 1,9 Vp
+	corrente pico: 9,5 A
+
+Vo:
+  médio: 12,5 V
+  picos: 12,46 e 12,294 V
+
+Io:
+  médio: 1,246 A
+  picos: 1,26 e 1,2294 V

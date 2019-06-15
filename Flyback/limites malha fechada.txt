@@ -1,0 +1,42 @@
+malha fechada
+
+** Chaves **
+mosfet:
+ 	tensão: 508,7 Vp
+	corrente média: 2,3 A
+
+diodo:
+	tensão: 21 Vp 
+	corrente media: 1,4 A 
+
+
+ ** Snubber **
+diodo snubber:
+	tensão: 204,5 Vp
+	corrente media: 3,7 A
+
+capacitor snubber:
+	tensão: 190 Vp 
+	corrente: 3,7 A
+
+res snubber:
+	tensão: 190 Vp
+	corrente media: 3,7 A
+
+*** outros 
+cap ret:
+	tensão: 312 e 306 Vp
+
+res R_CS:
+	tensão média: 477 mV
+	corrente média:	2,39 A
+	tensão pico: 1,65 Vp
+	corrente pico: 8,27 A
+
+Vo:
+  médio: 12,04 V
+  picos: 
+
+Io:
+  médio: 1,204 A
+  picos: 
