@@ -1,4 +1,4 @@
-update=qua 12 jun 2019 22:20:03 -03
+update=seg 08 jul 2019 23:33:05 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=ajus_shunt
 LibName31=/home/lucas/ssd2/kicad/digikey-kicad-library/digikey-symbols/dk_Transistors-JFETs
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
